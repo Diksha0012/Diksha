@@ -1,6 +1,6 @@
 //ATM
 #include<stdio.h>
-//#include<conio.h>
+#include<conio.h>
 
 double m,acc,tb=30000,d,am,bal,c,x;
 char name;
@@ -8,26 +8,26 @@ int b,pin;
  main()
 {
 
-//);
+
  printf("\n\n\n\n\n\n\n\n\n");
  printf("  \t\t\t     Welcome To HDFC BANK      \n\n");
  printf("   \t\t\t   World Leading ATM Network       \n\n\n"   );
  printf("      \t\t\t    Please insert your card        \n");
 
- //getch();
- //clrscr();
+ getch();
+ clrscr();
 
  printf("\n\n\n\n\n\n\t\t\tPlease select your languge : ");
  printf("\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1.English");
  printf("\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t 2.Hindi");
 
-// getch();
-// clrscr();
+getch();
+clrscr();
 
  printf("\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tEnter your pin then press green button : ");
  scanf("%d",&pin);
-// getch();
- //clrscr();
+getch();
+ clrscr();
 
  printf("\n\n\t\tPlease select the service required ");
  printf("\n\n\n\n\n\t\t\t\t\t\t\t1.Withdrawl Cash");
@@ -38,22 +38,22 @@ int b,pin;
  switch(b)
  {
   case 1:
- // getch();
- // clrscr();
+  getch();
+  clrscr();
   printf("\n\n\n\n\n\t\tEnter Your amount : ");
   scanf("%lf",&x);
- // getch();
- // clrscr();
+ getch();
+ clrscr();
   printf("\n\tWithdrawl has been done successfully of amount %lf",b);
   bal=tb-x;
   printf("\n\n\t\tBalance : %lf",bal);
   break;
   case 2:
-//  clrscr();
+ clrscr();
   printf("\n\n\t\tBalance : %lf",tb);
   break;
   case 3:
- // clrscr();
+ clrscr();
   printf("\n\n\n\tDEC 16, 2023  13:55:06");
   printf("\n\t42439401  RANGRA RANGRA CHOWK");
   printf("\n\t-----------------------------------------\n");
@@ -71,7 +71,7 @@ int b,pin;
   printf("\n\tAVAIL BAL         4520.69+");
   break;
   case 4:
- // clrscr();
+ clrscr();
   printf("NAME : ");
   scanf("%s",&name);
   printf("\nACCOUNT NO. : ");
@@ -82,13 +82,13 @@ int b,pin;
   scanf("%lf",&m);
   printf("AMOUNT : ");
   scanf("%lf",&am);
- // getch();
- // clrscr();
+ getch();
+ clrscr();
   printf("YOUR AMOUNT HAS BEEN SUCCESSFULLY TRANSFERED ");
   printf("\nBALANCE : %lf",tb-am);
   break;
   default:
   printf("wrong");
  }
-// getch();
+ getch();
 }
