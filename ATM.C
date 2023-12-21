@@ -5,7 +5,7 @@
 double m,acc,tb=30000,d,am,bal,c,x;
 char name;
 int b,pin;
- main()
+void main()
 {
 
 
@@ -42,18 +42,18 @@ getch();
   clrscr();
   printf("\n\n\n\n\n\t\tEnter Your amount : ");
   scanf("%lf",&x);
- getch();
- clrscr();
-  printf("\n\tWithdrawl has been done successfully of amount %lf",b);
+  getch();
+  clrscr();
+  printf("\n\tWithdrawl has been done successfully of amount %lf",x);
   bal=tb-x;
   printf("\n\n\t\tBalance : %lf",bal);
   break;
   case 2:
- clrscr();
+  clrscr();
   printf("\n\n\t\tBalance : %lf",tb);
   break;
   case 3:
- clrscr();
+  clrscr();
   printf("\n\n\n\tDEC 16, 2023  13:55:06");
   printf("\n\t42439401  RANGRA RANGRA CHOWK");
   printf("\n\t-----------------------------------------\n");
@@ -64,14 +64,14 @@ getch();
   printf("\n\t29/11          250.00 - TO TRANSFER");
   printf("\n\t01/12         2000.00 - TO TRANSFER");
   printf("\n\t9/12              5.00+INT TRANSFER");
-  printf("\n\t9/12            510.00 -ATM WDL");
+  printf("\n\t9/12           510.00 -ATM WDL");
   printf("\n\t12/12          600.00 - TO TRANSFER");
   printf("\n\t21/11          430.00 - TO TRANSFER");
   printf("\n\t21/11          125.00 -ATM WDL");
   printf("\n\tAVAIL BAL         4520.69+");
   break;
   case 4:
- clrscr();
+  clrscr();
   printf("NAME : ");
   scanf("%s",&name);
   printf("\nACCOUNT NO. : ");
@@ -82,8 +82,8 @@ getch();
   scanf("%lf",&m);
   printf("AMOUNT : ");
   scanf("%lf",&am);
- getch();
- clrscr();
+  getch();
+  clrscr();
   printf("YOUR AMOUNT HAS BEEN SUCCESSFULLY TRANSFERED ");
   printf("\nBALANCE : %lf",tb-am);
   break;
